@@ -39,14 +39,14 @@ const footerLinks = {
 export default function Footer() {
   return (
     <footer className="relative overflow-hidden bg-[#0B1020] text-white">
-     
+      {/* Background Glow */}
       <div className="absolute left-0 top-0 h-72 w-72 rounded-full bg-purple-600/20 blur-3xl" />
 
       <div className="absolute bottom-0 right-0 h-72 w-72 rounded-full bg-indigo-500/20 blur-3xl" />
 
       <div className="relative mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
         <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-5">
-        
+          {/* Brand Section */}
           <div className="lg:col-span-2">
             <div className="flex items-center gap-3">
               <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-[#6C3BFF] to-[#8E61FF]">
@@ -94,7 +94,7 @@ export default function Footer() {
               </div>
             </div>
 
-          
+            {/* Social */}
             <div className="mt-8 flex items-center gap-4">
               {[
                 Globe,
@@ -113,8 +113,8 @@ export default function Footer() {
             </div>
           </div>
 
-                
-                  <div>
+          {/* Company Links */}
+          <div>
             <h3 className="text-lg font-semibold">Company</h3>
 
             <ul className="mt-6 space-y-4">
@@ -131,6 +131,7 @@ export default function Footer() {
             </ul>
           </div>
 
+          {/* Resources */}
           <div>
             <h3 className="text-lg font-semibold">Resources</h3>
 
@@ -148,7 +149,7 @@ export default function Footer() {
             </ul>
           </div>
 
-    
+          {/* Legal */}
           <div>
             <h3 className="text-lg font-semibold">Legal</h3>
 
@@ -167,7 +168,7 @@ export default function Footer() {
           </div>
         </div>
 
-    
+        {/* Bottom */}
         <div className="mt-14 border-t border-white/10 pt-6">
           <div className="flex flex-col items-center justify-between gap-4 md:flex-row">
             <p className="text-sm text-gray-500">

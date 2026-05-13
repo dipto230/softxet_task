@@ -2,15 +2,14 @@
 
 import Image from "next/image";
 import Link from "next/link";
-
 import {
+  Facebook,
+  Instagram,
+  Linkedin,
+  Twitter,
   Mail,
   Phone,
   MapPin,
-  Globe,
-  MessageCircle,
-  Headphones,
-  Send,
 } from "lucide-react";
 
 const footerLinks = {
@@ -20,14 +19,12 @@ const footerLinks = {
     { label: "প্রাইসিং", href: "#" },
     { label: "যোগাযোগ", href: "#" },
   ],
-
   resources: [
     { label: "ব্লগ", href: "#" },
     { label: "হেল্প সেন্টার", href: "#" },
     { label: "ডকুমেন্টেশন", href: "#" },
     { label: "সাপোর্ট", href: "#" },
   ],
-
   legal: [
     { label: "Privacy Policy", href: "#" },
     { label: "Terms & Conditions", href: "#" },
@@ -39,14 +36,13 @@ const footerLinks = {
 export default function Footer() {
   return (
     <footer className="relative overflow-hidden bg-[#0B1020] text-white">
-     
+      {/* Background Glow */}
       <div className="absolute left-0 top-0 h-72 w-72 rounded-full bg-purple-600/20 blur-3xl" />
-
       <div className="absolute bottom-0 right-0 h-72 w-72 rounded-full bg-indigo-500/20 blur-3xl" />
 
       <div className="relative mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
         <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-5">
-        
+          {/* Brand Section */}
           <div className="lg:col-span-2">
             <div className="flex items-center gap-3">
               <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-[#6C3BFF] to-[#8E61FF]">
@@ -61,7 +57,6 @@ export default function Footer() {
 
               <div>
                 <h2 className="text-2xl font-bold">Ecomtora</h2>
-
                 <p className="text-sm text-gray-400">
                   Smart E-Commerce Solution
                 </p>
@@ -77,30 +72,27 @@ export default function Footer() {
             <div className="mt-6 space-y-4">
               <div className="flex items-center gap-3 text-sm text-gray-300">
                 <Mail size={18} />
-
-                <span>support@ecomtora.com</span>
+                support@ecomtora.com
               </div>
 
               <div className="flex items-center gap-3 text-sm text-gray-300">
                 <Phone size={18} />
-
-                <span>+880 1234-567890</span>
+                +880 1234-567890
               </div>
 
               <div className="flex items-center gap-3 text-sm text-gray-300">
                 <MapPin size={18} />
-
-                <span>Dhaka, Bangladesh</span>
+                Dhaka, Bangladesh
               </div>
             </div>
 
-          
+            {/* Social */}
             <div className="mt-8 flex items-center gap-4">
               {[
-                Globe,
-                MessageCircle,
-                Headphones,
-                Send,
+                Facebook,
+                Instagram,
+                Twitter,
+                Linkedin,
               ].map((Icon, index) => (
                 <Link
                   key={index}
@@ -113,8 +105,8 @@ export default function Footer() {
             </div>
           </div>
 
-                
-                  <div>
+          {/* Company Links */}
+          <div>
             <h3 className="text-lg font-semibold">Company</h3>
 
             <ul className="mt-6 space-y-4">
@@ -131,6 +123,7 @@ export default function Footer() {
             </ul>
           </div>
 
+          {/* Resources */}
           <div>
             <h3 className="text-lg font-semibold">Resources</h3>
 
@@ -148,7 +141,7 @@ export default function Footer() {
             </ul>
           </div>
 
-    
+          {/* Legal */}
           <div>
             <h3 className="text-lg font-semibold">Legal</h3>
 
@@ -167,7 +160,7 @@ export default function Footer() {
           </div>
         </div>
 
-    
+        {/* Bottom */}
         <div className="mt-14 border-t border-white/10 pt-6">
           <div className="flex flex-col items-center justify-between gap-4 md:flex-row">
             <p className="text-sm text-gray-500">

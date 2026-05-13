@@ -7,7 +7,7 @@ export default function CTABanner() {
     <section className="px-4 py-10">
       <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-6 rounded-3xl bg-gradient-to-r from-[#5B2EFF] via-[#6A35FF] to-[#7B3FFF] px-6 py-6 shadow-lg md:flex-row md:px-10">
         
-    
+        {/* Left Side */}
         <div className="flex items-center gap-4">
           <div className="flex h-20 w-20 items-center justify-center rounded-full bg-white/10 backdrop-blur-md">
             <Image
@@ -30,7 +30,7 @@ export default function CTABanner() {
           </div>
         </div>
 
-      
+        {/* Right Side Buttons */}
         <div className="flex items-center gap-4">
           <button className="rounded-xl bg-white px-6 py-3 text-sm font-semibold text-[#5B2EFF] transition-all duration-300 hover:scale-105 hover:bg-gray-100">
             ডেমো দেখুন

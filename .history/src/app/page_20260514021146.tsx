@@ -1,6 +1,4 @@
-import Footer from "@/components/layout/Footer";
 import Navbar from "@/components/layout/Navbar";
-import CTABanner from "@/components/sections/CTABanner";
 import FeaturesSection from "@/components/sections/FeaturesSection";
 import HeroSection from "@/components/sections/HeroSection";
 import LiveDemoSection from "@/components/sections/LiveDemoSection";
@@ -20,8 +18,7 @@ export default function HomePage() {
       <LiveDemoSection />
       <PricingSection />
       <TrustedBySection />
-      <CTABanner/>
-      <Footer/>
+      <
     </main>
   );
 }
