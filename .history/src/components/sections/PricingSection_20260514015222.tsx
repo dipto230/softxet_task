@@ -111,7 +111,7 @@ export default function PricingSection() {
           </p>
         </div>
 
-   
+        {/* Pricing Cards */}
         <div className="mt-16 grid items-start gap-6 lg:grid-cols-4">
           {plans.map((plan) => {
             const colors =
