@@ -15,7 +15,7 @@ export default function HomePage() {
       <StatsSection />
       <FeaturesSection />
       <LiveDemoSection />
-      <PricingSection/>
+      <PricingSection/
     </main>
   );
 }

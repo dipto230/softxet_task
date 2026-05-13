@@ -112,9 +112,9 @@ export default function PricingSection() {
           </p>
         </div>
 
-    
+        {/* Pricing Cards */}
         <div className="mt-16 grid gap-6 lg:grid-cols-4">
-   
+          {/* Plans */}
           {plans.map((plan) => {
             const colors =
               colorClasses[
@@ -126,7 +126,7 @@ export default function PricingSection() {
                 key={plan.id}
                 className={`relative rounded-[30px] border bg-white p-7 shadow-sm transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl ${colors.border} ${colors.hover}`}
               >
-            
+                {/* Badge */}
                 {plan.badge && (
                   <div
                     className={`absolute right-5 top-5 rounded-full px-3 py-1 text-xs font-bold text-white ${colors.bg}`}
@@ -135,14 +135,14 @@ export default function PricingSection() {
                   </div>
                 )}
 
-              
+                {/* Title */}
                 <h3
                   className={`text-lg font-bold ${colors.text}`}
                 >
                   {plan.title}
                 </h3>
 
-           
+                {/* Price */}
                 <div className="mt-6 flex items-end gap-2">
                   <h2
                     className={`text-4xl font-black ${colors.text}`}
@@ -155,7 +155,7 @@ export default function PricingSection() {
                   </span>
                 </div>
 
-        
+                {/* Features */}
                 <div className="mt-8 space-y-4">
                   {plan.features.map((feature) => (
                     <div
@@ -177,7 +177,7 @@ export default function PricingSection() {
                   ))}
                 </div>
 
-       
+                {/* Button */}
                 <button
                   className={`mt-10 w-full rounded-2xl px-5 py-3 font-semibold text-white transition-all duration-300 hover:opacity-90 ${colors.bg}`}
                 >
@@ -187,9 +187,9 @@ export default function PricingSection() {
             );
           })}
 
-      
+          {/* Lifetime Card */}
           <div className="relative overflow-hidden rounded-[32px] border border-violet-200 bg-gradient-to-br from-white to-violet-50 p-8 shadow-sm">
-       
+            {/* Content */}
             <div className="relative z-10">
               <div className="inline-flex items-center gap-2 rounded-full bg-violet-100 px-4 py-2 text-sm font-semibold text-violet-700">
                 <Crown className="h-4 w-4" />
@@ -207,7 +207,7 @@ export default function PricingSection() {
                 ফিচার এবং ভবিষ্যতের আপডেট একদম ফ্রি।
               </p>
 
-        
+              {/* Features */}
               <div className="mt-8 space-y-4">
                 {[
                   "সকল প্রিমিয়াম ফিচার",
@@ -229,7 +229,7 @@ export default function PricingSection() {
                 ))}
               </div>
 
-        
+              {/* Button */}
               <button className="mt-10 rounded-2xl bg-violet-600 px-6 py-3 font-semibold text-white transition-all duration-300 hover:bg-violet-700">
                 বিস্তারিত জানতে যোগাযোগ করুন
               </button>

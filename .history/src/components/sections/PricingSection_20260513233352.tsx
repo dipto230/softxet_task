@@ -112,9 +112,9 @@ export default function PricingSection() {
           </p>
         </div>
 
-    
+        {/* Pricing Cards */}
         <div className="mt-16 grid gap-6 lg:grid-cols-4">
-   
+          {/* Plans */}
           {plans.map((plan) => {
             const colors =
               colorClasses[
@@ -126,7 +126,7 @@ export default function PricingSection() {
                 key={plan.id}
                 className={`relative rounded-[30px] border bg-white p-7 shadow-sm transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl ${colors.border} ${colors.hover}`}
               >
-            
+                {/* Badge */}
                 {plan.badge && (
                   <div
                     className={`absolute right-5 top-5 rounded-full px-3 py-1 text-xs font-bold text-white ${colors.bg}`}
@@ -135,14 +135,14 @@ export default function PricingSection() {
                   </div>
                 )}
 
-              
+                {/* Title */}
                 <h3
                   className={`text-lg font-bold ${colors.text}`}
                 >
                   {plan.title}
                 </h3>
 
-           
+                {/* Price */}
                 <div className="mt-6 flex items-end gap-2">
                   <h2
                     className={`text-4xl font-black ${colors.text}`}
@@ -155,7 +155,7 @@ export default function PricingSection() {
                   </span>
                 </div>
 
-        
+                {/* Features */}
                 <div className="mt-8 space-y-4">
                   {plan.features.map((feature) => (
                     <div
@@ -177,7 +177,7 @@ export default function PricingSection() {
                   ))}
                 </div>
 
-       
+                {/* Button */}
                 <button
                   className={`mt-10 w-full rounded-2xl px-5 py-3 font-semibold text-white transition-all duration-300 hover:opacity-90 ${colors.bg}`}
                 >
