@@ -6,6 +6,11 @@ This project showcases smooth animations, reusable components, and a clean desig
 🔗 **Live Demo:** https://softxet-task.vercel.app
 
 ---
+📸 Screenshots
+![Hero Section](./public/screenshots/hero.png)
+![Features Section](./public/screenshots/features.png)
+![Pricing Section](./public/screenshots/pricing.png)
+![Demo Section](./public/screenshots/demo.png)
 
  ✨ Features
 
@@ -82,11 +87,8 @@ pnpm build
 pnpm start
 
 
-📸 Screenshots
-![Hero Section](/screenshots/hero.png)
-![Features Section](/screenshots/features.png)
-![Pricing Section](/screenshots/pricing.png)
-![Demo Section](/screenshots/demo.png)
+
+
 
 
 🌐 Deployment
