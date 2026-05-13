@@ -34,7 +34,7 @@ export default async function DemoDetailsPage({
 
   return (
     <>
-    
+      {/* Navbar */}
       <Navbar />
 
       <section className="py-24">

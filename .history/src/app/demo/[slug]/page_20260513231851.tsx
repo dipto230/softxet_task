@@ -34,7 +34,7 @@ export default async function DemoDetailsPage({
 
   return (
     <>
-    
+      {/* Navbar */}
       <Navbar />
 
       <section className="py-24">
@@ -49,6 +49,7 @@ export default async function DemoDetailsPage({
             />
           </div>
 
+          {/* Right Content */}
           <div className="flex flex-col justify-center">
             <h1 className="text-5xl font-black text-slate-900">
               {demo.title}
@@ -58,7 +59,7 @@ export default async function DemoDetailsPage({
               {demo.description}
             </p>
 
-           
+            {/* Tech Stack */}
             <div className="mt-10 flex flex-wrap gap-3">
               {demo.technologies.map((tech) => (
                 <span
