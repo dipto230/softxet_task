@@ -4,7 +4,6 @@ import HeroSection from "@/components/sections/HeroSection";
 import LiveDemoSection from "@/components/sections/LiveDemoSection";
 import PricingSection from "@/components/sections/PricingSection";
 import StatsSection from "@/components/sections/StatsSection";
-import TrustedBySection from "@/components/sections/TrustedBySection";
 
 export default function HomePage() {
   return (
@@ -17,7 +16,7 @@ export default function HomePage() {
       <FeaturesSection />
       <LiveDemoSection />
       <PricingSection />
-      <TrustedBySection/>
+      <T
     </main>
   );
 }

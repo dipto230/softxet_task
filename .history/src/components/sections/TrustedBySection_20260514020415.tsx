@@ -42,10 +42,10 @@ export default function TrustedBySection() {
         </div>
 
         <div className="relative overflow-hidden">
-      
+          {/* Left Gradient */}
           <div className="pointer-events-none absolute left-0 top-0 z-10 h-full w-24 bg-gradient-to-r from-[#f7f7f7] to-transparent" />
 
-  
+          {/* Right Gradient */}
           <div className="pointer-events-none absolute right-0 top-0 z-10 h-full w-24 bg-gradient-to-l from-[#f7f7f7] to-transparent" />
 
           <motion.div

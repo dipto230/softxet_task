@@ -17,7 +17,7 @@ export default function HomePage() {
       <FeaturesSection />
       <LiveDemoSection />
       <PricingSection />
-      <TrustedBySection/>
+      <TrustedBySection
     </main>
   );
 }
