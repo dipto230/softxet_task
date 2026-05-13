@@ -27,7 +27,7 @@ export default function LiveDemoSection() {
           </p>
         </div>
 
-     
+        {/* Cards */}
         <div className="mt-16 grid gap-6 md:grid-cols-2 xl:grid-cols-4">
           {demos.map((demo) => (
             <div
@@ -37,7 +37,7 @@ export default function LiveDemoSection() {
               }
               className="group cursor-pointer overflow-hidden rounded-[26px] border border-slate-200 bg-white transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_20px_50px_rgba(15,23,42,0.08)]"
             >
-            
+              {/* Image */}
               <div className="relative h-52 overflow-hidden bg-slate-100">
                 <Image
                   src={demo.image}
@@ -47,7 +47,7 @@ export default function LiveDemoSection() {
                 />
               </div>
 
-      
+              {/* Bottom */}
               <div className="flex items-center justify-between p-5">
                 <div className="flex items-start gap-3">
                   {/* Icon */}
@@ -55,7 +55,7 @@ export default function LiveDemoSection() {
                     <ShoppingBag className="h-5 w-5 text-violet-600" />
                   </div>
 
-               
+                  {/* Text */}
                   <div>
                     <h3 className="text-base font-bold text-slate-900">
                       {demo.title}
@@ -67,7 +67,7 @@ export default function LiveDemoSection() {
                   </div>
                 </div>
 
-               
+                {/* Arrow */}
                 <div className="opacity-0 transition-all duration-300 group-hover:translate-x-1 group-hover:opacity-100">
                   <ArrowUpRight className="h-5 w-5 text-slate-400" />
                 </div>
