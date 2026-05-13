@@ -64,7 +64,7 @@ export default function FeaturesSection() {
   return (
     <section className="py-16 lg:py-24">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-      
+        {/* Heading */}
         <div className="text-center">
           <h2 className="text-3xl font-bold text-gray-900 lg:text-4xl">
             সবকিছু এক প্ল্যাটফর্মে
@@ -75,7 +75,7 @@ export default function FeaturesSection() {
           </p>
         </div>
 
-      
+        {/* Feature Cards */}
         <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6">
           {features.map((feature, index) => {
             const Icon = feature.icon;

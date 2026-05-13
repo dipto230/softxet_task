@@ -52,7 +52,7 @@ export default function StatsSection() {
     <section className="relative z-20 -mt-10 px-4 pb-20 lg:px-8">
       <div className="mx-auto max-w-7xl">
         <div className="relative overflow-hidden rounded-[32px] border border-white/40 bg-white/70 shadow-[0_20px_80px_rgba(124,58,237,0.12)] backdrop-blur-2xl">
-      
+          {/* Glow Effects */}
           <div className="absolute left-0 top-0 h-40 w-40 rounded-full bg-violet-300/20 blur-3xl" />
           <div className="absolute bottom-0 right-0 h-40 w-40 rounded-full bg-fuchsia-300/20 blur-3xl" />
 
@@ -65,13 +65,13 @@ export default function StatsSection() {
                   key={item.id}
                   className="group relative overflow-hidden border-b border-violet-100/60 p-8 transition-all duration-500 hover:bg-white/80 sm:border-r xl:border-b-0"
                 >
-               
+                  {/* Hover Glow */}
                   <div className="absolute inset-0 opacity-0 transition-opacity duration-500 group-hover:opacity-100">
                     <div className="absolute inset-0 bg-gradient-to-br from-violet-50/50 to-transparent" />
                   </div>
 
                   <div className="relative z-10 flex items-start gap-5">
-                 
+                    {/* Icon */}
                     <div
                       className={`flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br ${item.bg} text-white shadow-lg ${item.shadow} transition-all duration-500 group-hover:-translate-y-1 group-hover:scale-110 group-hover:rotate-6`}
                     >

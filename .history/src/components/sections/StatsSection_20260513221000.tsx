@@ -52,7 +52,7 @@ export default function StatsSection() {
     <section className="relative z-20 -mt-10 px-4 pb-20 lg:px-8">
       <div className="mx-auto max-w-7xl">
         <div className="relative overflow-hidden rounded-[32px] border border-white/40 bg-white/70 shadow-[0_20px_80px_rgba(124,58,237,0.12)] backdrop-blur-2xl">
-      
+          {/* Glow Effects */}
           <div className="absolute left-0 top-0 h-40 w-40 rounded-full bg-violet-300/20 blur-3xl" />
           <div className="absolute bottom-0 right-0 h-40 w-40 rounded-full bg-fuchsia-300/20 blur-3xl" />
 
