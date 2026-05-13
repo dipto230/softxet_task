@@ -81,7 +81,7 @@ export default function HeroSection() {
       <div className="absolute right-0 top-0 h-[500px] w-[500px] rounded-full bg-indigo-300/30 blur-3xl" />
 
       <div className="relative mx-auto grid max-w-7xl items-center gap-16 px-4 py-20 lg:grid-cols-2 lg:px-8">
-      
+        {/* LEFT CONTENT */}
         <div>
           <div className="mb-8 inline-flex items-center gap-2 rounded-full border border-violet-200 bg-white px-5 py-3 shadow-lg shadow-violet-100 transition-all duration-300 hover:-translate-y-1 hover:scale-105">
             <Sparkles className="h-4 w-4 text-violet-600" />
@@ -154,13 +154,13 @@ export default function HeroSection() {
           </div>
         </div>
 
-       
+        {/* RIGHT IMAGE */}
         <div ref={imageRef} className="relative">
           <div className="absolute -left-10 top-20 h-72 w-72 rounded-full bg-violet-300/30 blur-3xl" />
 
           <div className="absolute bottom-10 right-10 h-72 w-72 rounded-full bg-indigo-300/30 blur-3xl" />
 
-      
+          {/* Transparent Image Container */}
           <div className="relative rounded-[40px] p-2 transition-all duration-500 hover:scale-[1.02]">
             <Image
               src="/hero.png"

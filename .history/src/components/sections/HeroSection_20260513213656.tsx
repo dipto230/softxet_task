@@ -160,7 +160,7 @@ export default function HeroSection() {
 
           <div className="absolute bottom-10 right-10 h-72 w-72 rounded-full bg-indigo-300/30 blur-3xl" />
 
-      
+          {/* Transparent Image Container */}
           <div className="relative rounded-[40px] p-2 transition-all duration-500 hover:scale-[1.02]">
             <Image
               src="/hero.png"
