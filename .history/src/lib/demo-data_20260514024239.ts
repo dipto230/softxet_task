@@ -87,7 +87,6 @@ export const demos = [
     slug: "fashion",
 
     title: "Fashion Demo",
-    domain: "fashion.softxet.com",
 
     image: "/PROJECT-4.png",
 

@@ -31,7 +31,6 @@ export const demos = [
     slug: "food",
 
     title: "Food Demo",
-    domain: "food.softxet.com",
 
     image: "/PROJECT-2.png",
 
@@ -59,7 +58,6 @@ export const demos = [
     slug: "cosmetics",
 
     title: "Cosmetics Demo",
-    domain: "cosmetics.softxet.com",
 
     image: "/PROJECT-3.png",
 
@@ -87,7 +85,6 @@ export const demos = [
     slug: "fashion",
 
     title: "Fashion Demo",
-    domain: "fashion.softxet.com",
 
     image: "/PROJECT-4.png",
 
